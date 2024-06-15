@@ -129,7 +129,7 @@ app.delete('/jokes/:id', function (req, res) {
 
 //8. DELETE All jokes:Requires the admin key to perform this action
 //wipe database
-const masterKey = "4VGP2DN-6EWM4SJ-N6FGRHV-Z3PR3TT";    //as query param under api key
+const masterKey = "enter_key_here";    //as query param under api key
 app.delete('/all', function (req, res) {
   const userKey=req.query.key;    //user entered key
 
